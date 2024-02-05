@@ -31,6 +31,15 @@ body {
     position: absolute;
     margin-left: 100px;
 }
+.subtext {
+    font-family: 'Nunito';
+    font-size: 50px;
+    font-weight: bold;
+    color:#FAF9F6;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .header_text {
     font-family: 'Nunito';
     font-size: 50px;
