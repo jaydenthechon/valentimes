@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./style/css/styles.css">
-        
+        <link rel="stylesheet" href="./style/css/say_yes.css">
     </head> 
     <body>
         <div class="container">
-            <div >
-                <h1 class = "header_text">You Chose</h1>
+            <div>
+                <h1 class="header_text">You Chose:</h1>
             </div>
             <div class="gif_container">
                 <img src="./style/images/1bf28c3a15e9fa31d0faa5125a65f9f8.gif" alt="Cute animated illustration">
             </div>
-            <p class="subtext"> Go to the Aquarium and I'll point out the fish I've eaten hehe</p>
-            </div>
-            <div class = "buttons">
-                <button class="btn" id = "date1Button" onclick="nextPage()">Choose Another Option</button>
+            <p class="subtext">Us going to the Aquarium and I'll point out the fish I've eaten hehe</p>
+            <div class="buttons">
+                <button class="btn" id="date1Button" onclick="nextPage()">Choose Another Option</button>
                 <button class="btn" id="date2Button" onclick="moveButton()">Confirm</button>
-                <script>
-                    function nextPage() {
-                        window.location.href = "yippie.html";
-                    }
-                    
-                    function moveButton() {
-                        window.location.href = "confirm.html";
-                    }
-                </script> 
             </div>
         </div>
-       
+        <script>
+            function nextPage() {
+                window.location.href = "yippie.html";
+            }
+            
+            function moveButton() {
+                window.location.href = "confirm.html";
+            }
+        </script>
     </body> 
 </html>
