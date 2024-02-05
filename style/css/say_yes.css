@@ -33,10 +33,10 @@ body {
 }
 .subtext {
     font-family: 'Nunito';
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
     color:#FAF9F6;
-    text-align: right;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }
