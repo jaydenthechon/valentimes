@@ -1,40 +1,17 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #f1bdd3;
 }
 
-/* Position the "No" button absolutely within body */
-#noButton {
-    position: absolute;
-    margin-left: 150px;
-    transition: 0.5s;
-    /* Smooth movement */
-}
-
-#yesButton {
-    position: absolute;
-    margin-right: 150px;
-    /* Smooth movement */
-}
-
-.header_text {
+.subtext, .header_text, .text {
     font-family: 'Nunito';
-    font-size: 50px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0px;
-}
-
-.text {
-    font-family: 'Nunito';
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
+    color: #FAF9F6;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
@@ -42,12 +19,9 @@ body {
 
 .buttons {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 20px;
-    /* optional: adds some space between the buttons */
 }
 
 .btn {
@@ -55,9 +29,8 @@ body {
     color: white;
     padding: 15px 32px;
     text-align: center;
-    display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px;
     cursor: pointer;
     border: none;
     border-radius: 12px;
