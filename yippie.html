@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="./style/css/say_yes.css">
-        
-    </head> 
-    <body>
-        <div class="container">
-            <div >
-                <h1 class = "header_text">OmGEEE!! hehe </h1>
-            </div>
-            <div class="gif_container">
-                <img src="./style/images/peach-goma-flowers.gif" alt="Cute animated illustration">
-            </div>
-        <p class = "subtext"> Choose a date option!</p>
+<head>
+    <link rel="stylesheet" href="./style/css/say_yes.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="header_text">OmGEEE!! hehe</h1>
         </div>
-        <div class = "buttons">
-            <button class="btn" id = "date1Button" onclick="nextPage()">Date 1</button>
-            <button class="btn" id = "date2Button" onclick="nextPage2()">Date 2</button>
-            <button class="btn" id = "date3Button" onclick="nextPage3()">Date 3</button>
-            <script>
-                function nextPage() {
-                    window.location.href = "date1.html";
-                }
-                function nextPage2() {
-                    window.location.href = "date2.html";
-                }
-                function nextPage3() {
-                    window.location.href = "date3.hmtl";
-                }
-            </script>
+        <div class="gif_container">
+            <img src="./style/images/peach-goma-flowers.gif" alt="Cute animated illustration">
         </div>
-       
-    </body> 
+        <p class="subtext">Choose a date option!</p>
+    </div>
+    
+    <div class="buttons">
+        <button class="btn" id="date1Button" onclick="nextPage()">Date 1</button>
+        <button class="btn" id="date2Button" onclick="nextPage2()">Date 2</button>
+        <button class="btn" id="date3Button" onclick="nextPage3()">Date 3</button>
+    </div>
+
+    <script>
+        function nextPage() {
+            window.location.href = "date1.html";
+        }
+
+        function nextPage2() {
+            window.location.href = "date2.html";
+        }
+
+        function nextPage3() {
+            window.location.href = "date3.html";
+        }
+    </script>
+</body>
 </html>
