@@ -7,9 +7,18 @@ body {
     background-color: #f1bdd3;
 }
 
-.subtext, .header_text, .text {
+.subtext, .text {
     font-family: 'Nunito';
     font-size: 20px;
+    font-weight: bold;
+    color: #FAF9F6;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.header_text {
+    font-family: 'Nunito';
+    font-size: 50px;
     font-weight: bold;
     color: #FAF9F6;
     text-align: center;
