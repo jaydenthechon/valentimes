@@ -19,18 +19,7 @@ body {
     margin-right: 150px;
     /* Smooth movement */
 }
-#date1Button {
-    position: absolute;
-    margin-right: 100px;
-}
-#date2Button {
-    position: absolute;
-    margin-right: 200px;
-}
-#date3Button {
-    position: absolute;
-    margin-left: 100px;
-}
+
 .header_text {
     font-family: 'Nunito';
     font-size: 50px;
